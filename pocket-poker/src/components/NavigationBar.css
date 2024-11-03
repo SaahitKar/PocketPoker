@@ -1,0 +1,36 @@
+/************ Navbar Css ************/
+nav.navbar {
+    padding-right: 5px 0;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition:  0.32s ease-in-out;
+  }
+  .html {
+    padding-top: 50px;
+  }
+  
+  /************ NavBar Sign up/Log in Css ************/
+  .dropdown-menu-right {
+    left: auto; 
+    right: 0; 
+    display: none;
+  }
+  
+  .dropdown-menu {
+    left: auto; 
+  }
+  
+  .dropdown-menu {
+    padding: 0.5rem; 
+  }
+  
+  .dropdown:hover .dropdown-menu-right {
+    display: block;
+  }
+
+  .nav-li li {
+    display: inline-block;
+    padding-right: 10px;
+  }
